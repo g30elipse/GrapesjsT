@@ -1,5 +1,5 @@
 import grapesjs from 'grapesjs';
-import gjsWebpagePreset from 'grapesjs-preset-webpage';
+import gjsNewsletterPreset from 'grapesjs-preset-newsletter';
 import { GrapesjsEditor, GrapeJsData } from '../../types';
 import axios from 'axios';
 
@@ -11,7 +11,7 @@ export default {
             container: `#${id}`,
             components: data?.components || data?.html || '',
             style: data?.style || data?.css || '',
-            plugins: [gjsWebpagePreset],
+            plugins: [gjsNewsletterPreset],
             storageManager: {
                 // type: 'remote',
                 type: null,

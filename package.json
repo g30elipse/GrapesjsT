@@ -10,6 +10,7 @@
     "clsx": "^1.0.4",
     "dayjs": "^1.8.18",
     "grapesjs": "^0.16.12",
+    "grapesjs-preset-newsletter": "^0.2.20",
     "grapesjs-preset-webpage": "^0.1.11",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
